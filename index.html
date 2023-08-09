@@ -65,6 +65,124 @@ button:hover {
     transform: scale(1.05);
 }
 
+	     
+img {
+  max-width:600px;
+  height: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.one {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  background-color: #a8d0db;
+  opacity: 50%;
+  top: 16%;
+  left: 130px;
+}
+
+.two {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  background-color: #a8d0db;
+  opacity: 50%;
+  top: 16%;
+  left: 330px;
+}
+
+.three {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  background-color: #a8d0db;
+  opacity: 50%;
+  top: 50%;
+  left: 130px;
+}
+
+.four {
+  position: absolute;
+  height: 250px;
+  width: 200px;
+  background-color: #a8d0db;
+  opacity: 50%;
+  top: 50%;
+  left: 330px;
+}
+
+
+@media (max-width: 1550px) {
+  img {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .one {
+    height: 150px;
+    width: 130px;
+    top: 17%;
+    left: 100px;
+  }
+
+  .two {
+    height: 150px;
+    width: 130px;
+    top: 17%;
+    left: 230px;
+  }
+
+  .three {
+    height: 150px;
+    width: 140px;
+    top: 50%;
+    left: 100px;
+  }
+
+  .four {
+    height: 150px;
+    width: 120px;
+    top: 50%;
+    left: 240px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
 
     </style>
 
