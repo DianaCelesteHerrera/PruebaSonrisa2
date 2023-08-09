@@ -109,13 +109,53 @@ row {
                         <div id="pregunta4" class="d-none" style="font-family: 'Montserrat', sans-serif;">
    							 <div class="form-group">
       						  <label for="dientes" style="font-family: 'Montserrat', sans-serif;">4)¿En qué lugar sientes molestias?"<span class="required-indicator">*</span></label>
-     						   <select class="form-control" id="dientes" name="dientes" required>
+						 <div class="row">
+      						<div class="col">
+        <button
+          onmouseover="iluminateOne()"
+          onmouseout="iluminateOneOut()"
+          onclick="iluminateOne()"
+        >
+         Superior Izquierdo
+        </button>
+        <button
+          onmouseover="iluminateTwo()"
+          onmouseout="iluminateTwoOut()"
+          onclick="iluminateTwo()"
+        >
+          Superior Derecho
+        </button>
+        <button
+          onmouseover="iluminateThree()"
+          onmouseout="iluminateThreeOut()"
+          onclick="iluminateThree()"
+        >
+          Inferior Izquierdo
+        </button>
+        <button
+          onmouseover="iluminateFour()"
+          onmouseout="iluminateFourOut()"
+          onclick="iluminateFour()"
+        >
+         Inferior Derecho
+        </button>
+      </div>
+
+      <div class="container">
+        <button class="one" id="one"></button>
+        <button class="two" id="two"></button>
+        <button class="three" id="three"></button>
+        <button class="four" id="four"></button>
+        <img src="https://i.ibb.co/L9xN7wR/image.png" alt="dientes" />
+      </div>
+    </div>
+     						   <!--select class="form-control" id="dientes" name="dientes" required>
     					        <br>
                                 <option value="">Selecciona una opción</option>
     					        <option value="Mis dientes superiores">Mis dientes superiores</option>
      					       <option value="Mis dientes inferiores">Mis dientes inferiores</option>
       					      <option value="superiores-inferiores">Dientes superiores e inferiores</option>
-     				   </select>
+							 </select--->
    					 </div>
    					 <button type="button" class="btn btn-primary" onclick="mostrarPregunta2('pregunta3', 'pregunta4')">Atrás</button>
    					 <button type="button" class="btn btn-primary" onclick="mostrarPregunta('pregunta4', 'pregunta5')">Siguiente</button>
