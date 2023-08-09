@@ -149,7 +149,7 @@ var formularioIniciado = false;
 
 
 //PRUEBA DE LA SONRISA EN 3D
-function iluminateOne() {
+  function iluminateOne() {
   var one = document.getElementById("one");
   one.style.visibility = "visible";
 }
@@ -188,4 +188,3 @@ function iluminateFourOut() {
   var four = document.getElementById("four");
   four.style.visibility = "hidden";
 }
-
